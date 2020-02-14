@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="@string/menu_Historia"
+    app:startDestination="@+id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.lscud.ui.Inicio.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.lscud.ui.Dias.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_dias" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.lscud.ui.Cuestionario.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_cuestionario" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.lscud.ui.InfoApp.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_infoapp" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.lscud.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+    <activity
+        android:id="@+id/HLSC"
+        android:name="com.example.lscud.ui.LSC.HLSC"
+        android:label="content_hlsc"
+        tools:layout="@layout/content_hlsc" />
+    <activity
+        android:id="@+id/colores"
+        android:name="com.example.lscud.Colores"
+        android:label="activity_colores"
+        tools:layout="@layout/activity_colores" />
+    <activity
+        android:id="@+id/diccionario"
+        android:name="com.example.lscud.Diccionario"
+        android:label="activity_diccionario"
+        tools:layout="@layout/activity_diccionario" />
+    <activity
+        android:id="@+id/numeros"
+        android:name="com.example.lscud.Numeros"
+        android:label="activity_numeros"
+        tools:layout="@layout/activity_numeros" />
+    <activity
+        android:id="@+id/numeroDos"
+        android:name="com.example.lscud.NumeroDos"
+        android:label="activity_numero_dos"
+        tools:layout="@layout/activity_numero_dos" />
+    <activity
+        android:id="@+id/numeroTres"
+        android:name="com.example.lscud.NumeroTres"
+        android:label="activity_numero_tres"
+        tools:layout="@layout/activity_numero_tres" />
+    <activity
+        android:id="@+id/numeroCuatro"
+        android:name="com.example.lscud.NumeroCuatro"
+        android:label="activity_numero_cuatro"
+        tools:layout="@layout/activity_numero_cuatro" />
+    <activity
+        android:id="@+id/numeroCinco"
+        android:name="com.example.lscud.NumeroCinco"
+        android:label="activity_numero_cinco"
+        tools:layout="@layout/activity_numero_cinco" />
+    <activity
+        android:id="@+id/numeroSeis"
+        android:name="com.example.lscud.NumeroSeis"
+        android:label="activity_numero_seis"
+        tools:layout="@layout/activity_numero_seis" />
+    <activity
+        android:id="@+id/numeroSiete"
+        android:name="com.example.lscud.NumeroSiete"
+        android:label="activity_numero_siete"
+        tools:layout="@layout/activity_numero_siete" />
+    <activity
+        android:id="@+id/numeroOcho"
+        android:name="com.example.lscud.NumeroOcho"
+        android:label="activity_numero_ocho"
+        tools:layout="@layout/activity_numero_ocho" />
+    <activity
+        android:id="@+id/numeroNueve"
+        android:name="com.example.lscud.NumeroNueve"
+        android:label="activity_numero_nueve"
+        tools:layout="@layout/activity_numero_nueve" />
+    <activity
+        android:id="@+id/numeroDiez"
+        android:name="com.example.lscud.NumeroDiez"
+        android:label="activity_numero_diez"
+        tools:layout="@layout/activity_numero_diez" />
+    <activity
+        android:id="@+id/abecedario"
+        android:name="com.example.lscud.Abecedario"
+        android:label="activity_abecedario"
+        tools:layout="@layout/activity_abecedario" />
+    <activity
+        android:id="@+id/diasLunes"
+        android:name="com.example.lscud.DiasLunes"
+        android:label="activity_dias_lunes"
+        tools:layout="@layout/activity_dias_lunes" />
+    <activity
+        android:id="@+id/mesesEnero"
+        android:name="com.example.lscud.MesesEnero"
+        android:label="activity_meses_enero"
+        tools:layout="@layout/activity_meses_enero" />
+
+</navigation>
